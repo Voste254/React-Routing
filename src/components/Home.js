@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css'; 
-import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -34,8 +33,7 @@ const Home = () => {
           <p>Join our React community and get help from other devs.</p>
         </div>
       </section>
-      <Link to="/Contacts">Go to Contacts page</Link><br/>
-        <Link to="/About">Go to About us page</Link>
+    
     </div>
   );
 };
